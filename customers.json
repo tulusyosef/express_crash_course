@@ -1,0 +1,69 @@
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "id": "1",
+    "self": "https://10.59.106.228/rest/api/2/issue/59435",
+    "key": "PBC-7282",
+    "fields": {
+        "customfield_10613": [
+            {
+                "self": "https://10.59.106.228/rest/api/2/customFieldOption/10400",
+                "value": "ProCat tier1",
+                "id": "10400",
+                "disabled": false
+            }
+        ],
+        "customfield_10619": "abc",
+        "issuelinks": [
+            {
+                "id": "66235",
+                "self": "https://10.59.106.228/rest/api/2/issueLink/66235",
+                "type": {
+                    "id": "10202",
+                    "name": "CR-SCH.ID link",
+                    "inward": "CR-SCH.ID link",
+                    "outward": "CR-SCH.ID link",
+                    "self": "https://10.59.106.228/rest/api/2/issueLinkType/10202"
+                },
+                "outwardIssue": {
+                    "id": "59402",
+                    "key": "PBC-7278",
+                    "self": "https://10.59.106.228/rest/api/2/issue/59402",
+                    "fields": {
+                        "summary": "NEW CR Standard Changes - User Manual",
+                        "status": {
+                            "self": "https://10.59.106.228/rest/api/2/status/10300",
+                            "description": "",
+                            "iconUrl": "https://10.59.106.228/images/icons/statuses/generic.png",
+                            "name": "CR Closed",
+                            "id": "10300",
+                            "statusCategory": {
+                                "self": "https://10.59.106.228/rest/api/2/statuscategory/3",
+                                "id": 3,
+                                "key": "done",
+                                "colorName": "green",
+                                "name": "Done"
+                            }
+                        },
+                        "priority": {
+                            "self": "https://10.59.106.228/rest/api/2/priority/3",
+                            "iconUrl": "https://10.59.106.228/images/icons/priorities/medium.svg",
+                            "name": "Medium",
+                            "id": "3"
+                        },
+                        "issuetype": {
+                            "self": "https://10.59.106.228/rest/api/2/issuetype/10300",
+                            "id": "10300",
+                            "description": "",
+                            "iconUrl": "https://10.59.106.228/secure/viewavatar?size=xsmall&avatarId=10310&avatarType=issuetype",
+                            "name": "Change Request",
+                            "subtask": false,
+                            "avatarId": 10310
+                        }
+                    }
+                }
+            }
+        ],
+        "assignee": "dce",
+        "customfield_10089": "11"
+    }
+}
